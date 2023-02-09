@@ -14,7 +14,7 @@ body {
 h1 {
   font-size: 35px;
   margin-bottom: 15px;
-  text-align: center
+  text-align: Center;
 }
 
 h2 {
@@ -29,6 +29,12 @@ h3 {
   text-align: justify;
 }
 
+h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
 .first {
   color: rgb(0, 6, 0);
 }
@@ -36,11 +42,12 @@ h3 {
 p { 
     margin-top: 25px;
     margin bottom: 25px;
+    text-align: justify;
 }
 
 
 #fill-form {
-  background-color: rgb(135, 242, 246);
+  background-color: rgb(171, 219, 220);
   border: 5px solid rgb(1, 1, 16);
   margin-top: 25px;
   margin bottom: 25px;
@@ -51,7 +58,7 @@ p {
 input, button  {
     padding: 10px;
     font-family: Helvetica;
-    text-align: justify;
+    text-align: center;
 }
 
 #fill-form h2 {
@@ -61,4 +68,10 @@ input, button  {
 img {
     width: 300px;
     height: 300px;
+}
+
+.image-class {
+  width: 200px;
+  height: 200px;
+  float: right;
 }
